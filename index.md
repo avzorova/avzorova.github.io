@@ -42,3 +42,5 @@
 
 ## Контакт
 email@domain.ru
+
+[Как я работаю](work.md)
