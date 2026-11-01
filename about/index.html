@@ -4,95 +4,81 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Обо мне | Елена Брагина</title>
-  <meta name="description" content="Елена Брагина — андрагог-психолог, исследователь обучения взрослых, научный консультант.">
+  <meta name="description" content="Елена Брагина — андрагог-психолог, исследователь обучения взрослых, разработчик HEL.">
   <link rel="icon" href="../assets/images/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/home.css">
 </head>
-<body>
-  <a class="skip-link" href="#main">Перейти к содержанию</a>
-  <header class="site-header">
-    <div class="container header-inner">
-      <a class="logo" href="../"><span class="logo-mark">HEL</span><span class="logo-text">Hidden Economy of Learning</span></a>
-      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Открыть меню"><span></span><span></span></button>
-      <nav class="site-nav" id="site-nav" aria-label="Основное меню">
-        <ul>
-          <li><a href="../">Главная</a></li>
-          <li><a href="../organizations/">Организациям</a></li>
-          <li><a href="../research/">Исследования</a></li>
-          <li><a class="is-active" href="./" aria-current="page">Обо мне</a></li>
-          <li><a href="../manifesto/">Манифест</a></li>
-        </ul>
-        <a class="btn btn-primary btn-sm nav-cta" href="../contact/">Контакты</a>
+<body class="home">
+  <div class="home-frame">
+    <header class="home-top">
+      <nav class="home-nav" aria-label="Меню">
+        <a href="../">Главная</a>
+        <a href="../organizations/">Организациям</a>
+        <a href="../research/">Исследования</a>
+        <a class="is-active" href="./" aria-current="page">Обо мне</a>
+        <a href="../manifesto/">Манифест</a>
+        <a href="../contact/">Контакты</a>
       </nav>
-    </div>
-  </header>
+    </header>
 
-  <main id="main">
-    <section class="section page-hero">
-      <div class="container two-col">
-        <figure class="photo-placeholder" aria-label="Фотография — заглушка">ЕБ</figure>
-        <div>
-          <p class="eyebrow">Обо мне</p>
-          <h1>Елена Брагина</h1>
-          <p class="lead">Андрагог-психолог, исследователь обучения взрослых, научный консультант.</p>
-          <p>
-            Руководитель проекта Hidden Economy of Learning (HEL), в котором я исследую скрытые издержки обучения и механизмы их возникновения на пересечении психологии взрослого человека, организации обучения и экономики образования.
-          </p>
-          <p>
-            Моя профессиональная работа объединяет три направления: исследования обучения взрослых, анализ образовательных практик и научный консалтинг.
-          </p>
-        </div>
+    <section class="home-hero">
+      <div class="home-photo">
+        <img src="../assets/images/elena-bragina.png" alt="Елена Брагина">
+      </div>
+      <div>
+        <h1>Елена Брагина</h1>
+        <p class="home-role">Андрагог-психолог, исследователь обучения взрослых · разработчик HEL</p>
       </div>
     </section>
 
-    <section class="section section-alt">
-      <div class="container">
-        <ul class="stat-list">
-          <li><strong>СПбГУ</strong> соискатель учёной степени кандидата психологических наук; преподаватель высшей школы</li>
-          <li><strong>18+</strong> лет научного консалтинга, исследований и работы с научными проектами</li>
-          <li><strong>ЛИНК / Open University</strong> «Менеджмент в действии», первая ступень MBA</li>
-          <li><strong>Практика</strong> программы ДПО, обучение и консультирование преподавателей, анализ занятий</li>
-        </ul>
-        <div class="prose-wide" style="margin-top: 2rem;">
-          <p>
-            Работала с преподавателями и образовательными командами: разрабатывала программы ДПО, проводила обучение преподавателей, консультировала преподавателей технических дисциплин и анализировала реальные занятия и учебные ситуации.
-          </p>
-        </div>
-        <div class="actions" id="publications">
-          <a class="btn btn-secondary" href="../research/">Исследования</a>
-          <a class="btn btn-secondary" href="../contact/">Связаться</a>
-          <a class="btn btn-ghost" href="../manifesto/">Манифест</a>
-        </div>
-        <p style="margin-top: 1.5rem; color: var(--text-soft); font-size: 0.95rem;">
-          Блок публикаций — заглушка: список появится, когда будут готовы ссылки.
-        </p>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container footer-grid">
-      <div class="footer-brand"><span class="logo-mark">HEL</span><p>Hidden Economy of Learning</p></div>
-      <nav aria-label="Навигация в подвале">
-        <ul class="footer-links">
-          <li><a href="../">Главная</a></li>
-          <li><a href="../organizations/">Организациям</a></li>
-          <li><a href="../research/">Исследования</a></li>
-          <li><a href="./">Обо мне</a></li>
-          <li><a href="../manifesto/">Манифест</a></li>
-          <li><a href="../contact/">Контакты</a></li>
-        </ul>
-      </nav>
-      <div class="footer-contacts">
-        <a href="https://t.me/resistentia_life" target="_blank" rel="noopener noreferrer">Telegram-канал</a>
-        <a href="mailto:ceo@avzorova.ru">ceo@avzorova.ru</a>
-      </div>
+    <div class="lang-switch" aria-label="Язык">
+      <a class="is-active" href="./" aria-current="page">Русский</a>
+      <a href="../en/">English</a>
     </div>
-    <div class="container footer-bottom"><p>© 2026 Елена Брагина</p></div>
-  </footer>
-  <script src="../assets/js/main.js"></script>
+
+    <main>
+      <h2>Профессиональный профиль</h2>
+      <hr class="section-line">
+
+      <p>
+        Основные направления моей деятельности — исследования обучения взрослых, анализ образовательных практик и научный консалтинг.
+      </p>
+
+      <h3>СПбГУ</h3>
+      <p>Аспирантура (5.3.4), соискатель ученой степени кандидата психологических наук, ДПО «Преподаватель высшей школы»</p>
+
+      <h3>ЛИНК / Open University</h3>
+      <p>«Менеджмент в действии», первая ступень MBA</p>
+
+      <h3>18+ лет</h3>
+      <p>научного консалтинга</p>
+
+      <h2>Профессиональный опыт</h2>
+      <hr class="section-line">
+
+      <p>
+        По первому образованию я юрист. Окончила аспирантуру по гражданскому праву. Работала в коммерческих банках на позиции начальника отдела межбанковских отношений.
+      </p>
+      <p>
+        Опыт научно-исследовательской работы — 18 лет. Последние 7 лет я руковожу НИР для ведущих российских вузов: организую исследования от замысла до публикации результатов.
+      </p>
+      <p>
+        Мои собственные исследования посвящены психологии образования взрослых. Диссертация по теме «Проявление субъектности обучающихся в условиях дополнительного профессионального образования» подготовлена под научным руководством д.п.н., профессора СПбГУ Посоховой С.Т.
+      </p>
+
+      <p>
+        <a class="more" href="../research/">Исследования →</a>
+        &nbsp;&nbsp;
+        <a class="more" href="../contact/">Связаться →</a>
+      </p>
+    </main>
+
+    <footer>
+      <span>© 2026 Елена Брагина</span>
+    </footer>
+  </div>
 </body>
 </html>
